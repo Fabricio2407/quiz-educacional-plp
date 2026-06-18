@@ -4,6 +4,11 @@ from dataclasses import dataclass
 from typing import Sequence
 
 from models.resposta_do_jogador import RespostaDoJogador
+from utils.funcoes_funcionais import (
+    calcular_acertos,
+    calcular_percentual,
+    gerar_feedback_geral,
+)
 
 
 @dataclass
@@ -37,9 +42,9 @@ class Resultado:
         respostas: Sequence[RespostaDoJogador],
     ) -> Resultado:
         total_perguntas = len(respostas)
-        acertos = sum(1 for resposta in respostas if resposta.foi_correta())
+        acertos = calcular_acertos(respostas)
         erros = total_perguntas - acertos
-        percentual = (acertos / total_perguntas * 100) if total_perguntas else 0.0
+        percentual = calcular_percentual(acertos, total_perguntas)
 
         return cls(
             jogador_nome=jogador_nome,
@@ -47,18 +52,5 @@ class Resultado:
             acertos=acertos,
             erros=erros,
             percentual=percentual,
-            feedback_geral=cls._gerar_feedback_geral(percentual),
+            feedback_geral=gerar_feedback_geral(percentual),
         )
-
-    @staticmethod
-    def _gerar_feedback_geral(percentual: float) -> str:
-        if percentual == 100:
-            return "Excelente desempenho."
-
-        if percentual >= 70:
-            return "Bom desempenho."
-
-        if percentual >= 50:
-            return "Desempenho regular."
-
-        return "Continue estudando o conteudo."

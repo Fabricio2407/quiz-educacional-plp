@@ -4,6 +4,7 @@ from pathlib import Path
 from typing import Any
 
 from models.pergunta import Pergunta
+from utils.funcoes_funcionais import filtrar_perguntas_por_topico
 
 
 @dataclass
@@ -32,13 +33,7 @@ class BancoDePerguntas:
         return topicos
 
     def buscar_por_topico(self, topico: str) -> list[Pergunta]:
-        topico_normalizado = topico.strip().casefold()
-
-        return [
-            pergunta
-            for pergunta in self.perguntas
-            if pergunta.categoria.casefold() == topico_normalizado
-        ]
+        return filtrar_perguntas_por_topico(self.perguntas, topico)
 
     def _criar_pergunta(self, dados: dict[str, Any]) -> Pergunta:
         return Pergunta(
