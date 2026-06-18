@@ -26,3 +26,9 @@ O objetivo do projeto e construir um quiz educacional simples, executado no term
 ## Dependencias
 
 No momento, o projeto usa apenas a biblioteca padrao do Python.
+
+## Como executar
+
+```bash
+python main.py
+```
