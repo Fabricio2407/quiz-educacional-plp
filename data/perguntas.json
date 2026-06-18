@@ -1,0 +1,342 @@
+[
+  {
+    "id": 1,
+    "categoria": "Programação Orientada a Objetos",
+    "enunciado": "Qual conceito representa a capacidade de esconder detalhes internos de uma classe?",
+    "alternativas": {
+      "A": "Encapsulamento",
+      "B": "Recursão",
+      "C": "Mapeamento",
+      "D": "Iteração"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "Recursão é uma técnica em que uma função chama a si mesma.",
+      "C": "Mapeamento está mais ligado à transformação de dados, comum na Programação Funcional.",
+      "D": "Iteração é repetição de comandos, não ocultação de detalhes internos."
+    }
+  },
+  {
+    "id": 2,
+    "categoria": "Programação Orientada a Objetos",
+    "enunciado": "Em Programação Orientada a Objetos, o que é uma classe?",
+    "alternativas": {
+      "A": "Um valor digitado pelo usuário",
+      "B": "Um modelo para criar objetos",
+      "C": "Uma repetição com condição",
+      "D": "Um arquivo de banco de dados"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "Um valor digitado pelo usuário é uma entrada de dados, não uma classe.",
+      "C": "Uma repetição com condição descreve estruturas como while, não uma classe.",
+      "D": "Uma classe não é um arquivo de banco de dados."
+    }
+  },
+  {
+    "id": 3,
+    "categoria": "Programação Orientada a Objetos",
+    "enunciado": "Qual alternativa descreve melhor um objeto?",
+    "alternativas": {
+      "A": "Uma instância de uma classe",
+      "B": "Uma função sem retorno",
+      "C": "Uma lista vazia",
+      "D": "Uma palavra reservada"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "Uma função sem retorno não representa necessariamente um objeto.",
+      "C": "Uma lista vazia é uma estrutura de dados específica.",
+      "D": "Uma palavra reservada é parte da sintaxe da linguagem."
+    }
+  },
+  {
+    "id": 4,
+    "categoria": "Programação Orientada a Objetos",
+    "enunciado": "Qual conceito permite criar uma classe a partir de outra já existente?",
+    "alternativas": {
+      "A": "Filtro",
+      "B": "Herança",
+      "C": "Lambda",
+      "D": "Concatenação"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "Filtro seleciona elementos de uma coleção, não cria uma classe a partir de outra.",
+      "C": "Lambda é uma forma de criar funções anônimas.",
+      "D": "Concatenação junta valores, como textos ou listas."
+    }
+  },
+  {
+    "id": 5,
+    "categoria": "Programação Orientada a Objetos",
+    "enunciado": "Qual conceito permite que métodos com o mesmo nome tenham comportamentos diferentes?",
+    "alternativas": {
+      "A": "Polimorfismo",
+      "B": "Entrada de dados",
+      "C": "Ordenação",
+      "D": "Comentário"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "Entrada de dados serve para receber informações do usuário.",
+      "C": "Ordenação organiza dados em uma sequência.",
+      "D": "Comentário é usado para documentar o código."
+    }
+  },
+  {
+    "id": 6,
+    "categoria": "Programação Funcional",
+    "enunciado": "Qual recurso é usado para transformar todos os itens de uma lista?",
+    "alternativas": {
+      "A": "filter",
+      "B": "map",
+      "C": "class",
+      "D": "input"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "filter seleciona elementos, mas não transforma todos eles.",
+      "C": "class pertence principalmente à Programação Orientada a Objetos.",
+      "D": "input recebe dados do usuário, não transforma listas."
+    }
+  },
+  {
+    "id": 7,
+    "categoria": "Programação Funcional",
+    "enunciado": "Qual recurso é usado para selecionar apenas alguns itens de uma coleção?",
+    "alternativas": {
+      "A": "filter",
+      "B": "print",
+      "C": "class",
+      "D": "break"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "print exibe informações na tela, não seleciona itens.",
+      "C": "class define modelos de objetos.",
+      "D": "break interrompe um laço de repetição."
+    }
+  },
+  {
+    "id": 8,
+    "categoria": "Programação Funcional",
+    "enunciado": "O que caracteriza uma função pura?",
+    "alternativas": {
+      "A": "Alterar variáveis globais",
+      "B": "Depender de input do usuário",
+      "C": "Retornar o mesmo resultado para os mesmos argumentos",
+      "D": "Imprimir sempre uma mensagem"
+    },
+    "resposta_correta": "C",
+    "explicacoes_erros": {
+      "A": "Alterar variáveis globais é efeito colateral.",
+      "B": "Depender de input torna o resultado menos previsível.",
+      "D": "Imprimir mensagem é efeito colateral, não característica de função pura."
+    }
+  },
+  {
+    "id": 9,
+    "categoria": "Programação Funcional",
+    "enunciado": "Qual expressão cria uma função anônima em Python?",
+    "alternativas": {
+      "A": "lambda",
+      "B": "while",
+      "C": "import",
+      "D": "class"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "while cria uma estrutura de repetição.",
+      "C": "import carrega módulos no programa.",
+      "D": "class define uma classe, não uma função anônima."
+    }
+  },
+  {
+    "id": 10,
+    "categoria": "Programação Funcional",
+    "enunciado": "Qual ideia é comum na Programação Funcional?",
+    "alternativas": {
+      "A": "Evitar funções",
+      "B": "Priorizar funções como unidades principais",
+      "C": "Usar apenas classes",
+      "D": "Criar telas gráficas"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "A Programação Funcional usa funções como elemento central.",
+      "C": "Usar classes é mais associado à Programação Orientada a Objetos.",
+      "D": "Criar telas gráficas não define o paradigma funcional."
+    }
+  },
+  {
+    "id": 11,
+    "categoria": "Conceitos de Linguagens de Programação",
+    "enunciado": "O que é sintaxe em uma linguagem de programação?",
+    "alternativas": {
+      "A": "O significado lógico de um comando",
+      "B": "As regras de escrita da linguagem",
+      "C": "A velocidade do computador",
+      "D": "O nome do arquivo principal"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "O significado lógico está mais ligado à semântica.",
+      "C": "A velocidade do computador não define a sintaxe.",
+      "D": "O nome do arquivo não representa as regras da linguagem."
+    }
+  },
+  {
+    "id": 12,
+    "categoria": "Conceitos de Linguagens de Programação",
+    "enunciado": "O que é semântica em uma linguagem de programação?",
+    "alternativas": {
+      "A": "O significado dos comandos",
+      "B": "A cor usada no editor",
+      "C": "A extensão do arquivo",
+      "D": "A quantidade de memória do computador"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "A cor do editor é apenas uma configuração visual.",
+      "C": "A extensão do arquivo identifica o tipo de arquivo, não o significado dos comandos.",
+      "D": "A quantidade de memória não define a semântica da linguagem."
+    }
+  },
+  {
+    "id": 13,
+    "categoria": "Conceitos de Linguagens de Programação",
+    "enunciado": "Qual alternativa representa um paradigma de programação?",
+    "alternativas": {
+      "A": "Orientado a Objetos",
+      "B": "Monitor HDMI",
+      "C": "Teclado numérico",
+      "D": "Arquivo compactado"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "Monitor HDMI é um dispositivo de saída.",
+      "C": "Teclado numérico é um dispositivo de entrada.",
+      "D": "Arquivo compactado não é paradigma de programação."
+    }
+  },
+  {
+    "id": 14,
+    "categoria": "Conceitos de Linguagens de Programação",
+    "enunciado": "Qual é a função de um compilador?",
+    "alternativas": {
+      "A": "Apagar arquivos automaticamente",
+      "B": "Traduzir código-fonte para uma forma executável ou intermediária",
+      "C": "Criar senhas para usuários",
+      "D": "Organizar imagens em pastas"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "Apagar arquivos não é a função de um compilador.",
+      "C": "Criar senhas não faz parte da compilação.",
+      "D": "Organizar imagens em pastas não está relacionado à tradução de código."
+    }
+  },
+  {
+    "id": 15,
+    "categoria": "Conceitos de Linguagens de Programação",
+    "enunciado": "Qual alternativa descreve uma linguagem interpretada?",
+    "alternativas": {
+      "A": "Executa o código com apoio de um interpretador",
+      "B": "Não possui variáveis",
+      "C": "Funciona apenas sem internet",
+      "D": "Serve somente para criar bancos de dados"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "Linguagens interpretadas podem possuir variáveis.",
+      "C": "O uso de internet não define se a linguagem é interpretada.",
+      "D": "Linguagens interpretadas não servem somente para bancos de dados."
+    }
+  },
+  {
+    "id": 16,
+    "categoria": "Python e Lógica de Programação",
+    "enunciado": "Qual comando é usado para exibir uma mensagem no terminal em Python?",
+    "alternativas": {
+      "A": "input",
+      "B": "print",
+      "C": "return",
+      "D": "import"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "input recebe dados do usuário.",
+      "C": "return devolve um valor a partir de uma função.",
+      "D": "import carrega módulos no programa."
+    }
+  },
+  {
+    "id": 17,
+    "categoria": "Python e Lógica de Programação",
+    "enunciado": "Qual estrutura é usada para tomar decisões no código?",
+    "alternativas": {
+      "A": "if",
+      "B": "list",
+      "C": "def",
+      "D": "append"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "list representa uma lista, não uma decisão.",
+      "C": "def cria funções.",
+      "D": "append adiciona um item a uma lista."
+    }
+  },
+  {
+    "id": 18,
+    "categoria": "Python e Lógica de Programação",
+    "enunciado": "Qual operador compara se dois valores são iguais em Python?",
+    "alternativas": {
+      "A": "=",
+      "B": "==",
+      "C": "+",
+      "D": "!="
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "= é usado para atribuição, não comparação.",
+      "C": "+ é usado para soma ou concatenação.",
+      "D": "!= compara se dois valores são diferentes."
+    }
+  },
+  {
+    "id": 19,
+    "categoria": "Python e Lógica de Programação",
+    "enunciado": "Qual palavra-chave é usada para criar uma função em Python?",
+    "alternativas": {
+      "A": "def",
+      "B": "for",
+      "C": "elif",
+      "D": "print"
+    },
+    "resposta_correta": "A",
+    "explicacoes_erros": {
+      "B": "for cria uma estrutura de repetição.",
+      "C": "elif faz parte de uma estrutura condicional.",
+      "D": "print exibe informações no terminal."
+    }
+  },
+  {
+    "id": 20,
+    "categoria": "Python e Lógica de Programação",
+    "enunciado": "Qual estrutura permite repetir comandos para cada item de uma lista?",
+    "alternativas": {
+      "A": "if",
+      "B": "for",
+      "C": "return",
+      "D": "class"
+    },
+    "resposta_correta": "B",
+    "explicacoes_erros": {
+      "A": "if é usado para decisões condicionais.",
+      "C": "return devolve um valor a partir de uma função.",
+      "D": "class define uma classe."
+    }
+  }
+]
